@@ -8,6 +8,7 @@ import pokemon.Pokemon;
 public class Main_Campeonato {
 
 	public static void main(String[] args) {
+		//Array de pokemons, donde guardaremos pokemons de cualquier clase
 		Pokemon[] participantes = new Pokemon[4];
 		Fuego charmander = new Fuego("Charmander", "fuego", 80, 15, false);
 		Fuego arcanine = new Fuego("Arcanine", "fuego", 70, 20, false);
